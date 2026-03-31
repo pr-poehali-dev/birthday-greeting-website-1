@@ -195,7 +195,7 @@ function Letter({ visible }: { visible: boolean }) {
               lineHeight: 1,
             }}
           >
-            С Днём Рождения, Дима
+            С Днём Рождения, Дима!
           </h2>
           <div className="flex justify-center gap-1 mt-3 text-xl">
             {"🎂🎁🥂🎉🌟".split("").map((e, i) => (
