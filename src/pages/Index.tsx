@@ -195,7 +195,7 @@ function Letter({ visible }: { visible: boolean }) {
               lineHeight: 1,
             }}
           >
-            С Днём Рождения!
+            С Днём Рождения, Дима!
           </h2>
           <div className="flex justify-center gap-1 mt-3 text-xl">
             {"🎂🎁🥂🎉🌟".split("").map((e, i) => (
@@ -228,8 +228,8 @@ function Letter({ visible }: { visible: boolean }) {
               lineHeight: 1.5,
             }}
           >
-            В этот особенный день желаю тебе всего
-            самого светлого и радостного!
+            Дима, в этот особенный день желаю тебе
+            всего самого светлого и радостного!
           </p>
           <p
             style={{
@@ -392,7 +392,17 @@ export default function Index() {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              Рождения
+              Рождения,
+            </span>
+            <br />
+            <span
+              style={{
+                background: "linear-gradient(135deg, #FF6B9D 0%, #FFB347 100%)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+              }}
+            >
+              Дима!
             </span>
           </h1>
           <div
