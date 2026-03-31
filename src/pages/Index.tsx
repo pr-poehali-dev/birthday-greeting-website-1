@@ -195,7 +195,7 @@ function Letter({ visible }: { visible: boolean }) {
               lineHeight: 1,
             }}
           >
-            С Днём Рождения, Дима!
+            С Днём Рождения, Дима
           </h2>
           <div className="flex justify-center gap-1 mt-3 text-xl">
             {"🎂🎁🥂🎉🌟".split("").map((e, i) => (
@@ -223,7 +223,7 @@ function Letter({ visible }: { visible: boolean }) {
             style={{
               fontFamily: "Caveat, cursive",
               textAlign: "center",
-              color: "#6B3A3A",
+              color: "#1a1a1a",
               fontSize: 22,
               lineHeight: 1.5,
             }}
@@ -235,7 +235,7 @@ function Letter({ visible }: { visible: boolean }) {
             style={{
               fontFamily: "Caveat, cursive",
               textAlign: "center",
-              color: "#7A4A4A",
+              color: "#222222",
               fontSize: 21,
               lineHeight: 1.5,
             }}
@@ -248,7 +248,7 @@ function Letter({ visible }: { visible: boolean }) {
             style={{
               fontFamily: "Caveat, cursive",
               textAlign: "center",
-              color: "#8B5E5E",
+              color: "#2d2d2d",
               fontSize: 20,
               lineHeight: 1.5,
             }}
